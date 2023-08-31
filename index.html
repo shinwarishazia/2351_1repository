@@ -4,9 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <h1>Hello Everyone!</h1>
+    <h2>Hide and show an element using javascript</h2>
+    
+    <style>
+        #div1 {
+            background: lightblue;
+            padding: 50px;
+        }
+    </style>
 </head>
 <body>
-    <h1>Hello Everyone</h1>
+
+    <button onclick="toggle()">toggle</button>
+    <div id="div1">
+        This is a div
+    </div>
+
+    <script>
+    function toggle() {
+        var x = document.getElementById("div1");
+
+        if(x.style.display === "none") {
+            x.style.display = "block";
+        }
+
+        else {
+            x.style.display = "none";
+        }
+    }
+    </script>
 
     <script src="./app.js"></script>
 </body>
