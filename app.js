@@ -1,7 +1,7 @@
-console.log(shell);
+console.log(let);
 
 
-var shell = 100;  // this is my bar  Number
+var let = 100;  // this is my bar  Number
 
 var name = "Dev Ed";  // This is the name display  string
 
