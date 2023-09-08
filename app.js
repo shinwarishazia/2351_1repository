@@ -23,7 +23,7 @@ difference = global_variable - block_variable  //The difference of the global an
 product = global_variable * block_variable  //The product of the global and block variables is product
 quotient = global_variable / block_variable //The quotient of the global and block variables is quotient
 
-console.log("The value of the global variable is:");
+console.log("The value of the global variable is: 10");
   /*The value of the block variable is: 20,
   The sum of the global and block variables is: 30,
   The difference of the global and block variables is: -10,
@@ -32,7 +32,7 @@ console.log("The value of the global variable is:");
   
 
 string_variable = "Hello, world!"
-print //The value of the string variable is string_variable)
+print //The value of the string variable is string_variable
 //The value of the string variable is Hello, world!
 
 const object_variable = {
