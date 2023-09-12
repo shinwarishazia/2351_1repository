@@ -16,7 +16,7 @@ global_variable = 10;
 print //The value of the global variable is global_variable
 
 block_variable = 20;
-print  //The value of the block variable is block_variable
+//value of a block variable is block_variable
 
 sum = global_variable + block_variable  //The sum of the global and block variables is sum
 difference = global_variable - block_variable  //The difference of the global and block variables is difference
