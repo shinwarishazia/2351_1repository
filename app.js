@@ -25,22 +25,6 @@ string_variable = 30;
 print //The value of the string variable is string_variable 
 console.log("The value of the string variable is: 30");
 
-variable_x = 5
-variable_y = 10
-variable_z = 15
-z = x + y
-z = 5 + 10
-z = 15
-x = z * 5
-x = 15 * 5
-x = 75
-y = x / 3
-y = 75 / 3
-y = 25
-x = z - y
-x = 15 - 25
-x = -10
-
 const object_variable = {
   "name": "John Tim",
   age: 30,
