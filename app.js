@@ -31,9 +31,9 @@ console.log("The value of the global variable is: 10");
   The quotient of the global and block variables is:*/
   
 
-  my_string = "Hello, world!"
-  print(my_string)
-  "Hello, world!" //output
+string_variable = "Hello, world!"
+print //The value of the string variable is string_variable
+//The value of the string variable is Hello, world!
 
 const object_variable = {
   "name": "John Tim",
