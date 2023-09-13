@@ -4,7 +4,6 @@ var let = 100;  // this is my bar  Number
 console.log(let);
 var name = "Dev Ed";  // This is the name display  string
 
-
 var checkout = false;  // Boolean
 
 var box = "shazia";
@@ -37,3 +36,48 @@ object_variable['name'] = 'John Tim'
 object_variable['age'] = 30
 object_variable['city'] = 'New York'
 print //The value of the object variable is object_variable
+
+
+//Create at least one function
+function testExample() {
+  var greeting = "Hi! My name is Shazia";
+  console.log(greeting);
+}
+
+testExample();
+
+//Pass parameters in
+
+
+//Pass parameters out
+
+//Invoke your functions.
+function calculateArea(radius) {
+  return Math.PI * radius ** 2;
+}
+// Invoke the function
+const radius = 5;
+const area = calculateArea(radius);
+console.log(area); //Output: 78.53981633974483
+
+//Create an object with multiple properties
+obj = {
+  name: "Shazia",
+  age: 19,
+  city: "San Antonio",
+  occupation: "Wed Designer",
+  hobbies: ["basketball", "hiking", "reading"]
+}
+//Event
+const button = document.getElementById("button");
+button.addEventListener("click", function() {
+});
+
+//Method
+Method.call = function(args) {
+  return this.func.apply(this, args);
+};
+const method = new Method('sayHello', function() {
+  console.log('Hello!');
+});
+method.call(); // Hello!
