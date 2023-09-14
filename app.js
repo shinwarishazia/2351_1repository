@@ -18,7 +18,6 @@ let block_variable= 20;
 block_variable=block_variable + 2;
 console.log("The value of the block variable is:" + block_variable);
 print //value of a block variable is block_variable
-
 }
 
 string_variable = "Shazia";
