@@ -38,3 +38,58 @@ object_variable['city'] = 'New York'
 print //The value of the object variable is object_variable
 
 
+//Create at least one function
+function testExample() {
+  var greeting = "Hi! My name is Shazia";
+  console.log(greeting);
+}
+
+testExample();
+
+//multiple fuctions with parameter in and parameter out
+// Function to add two numbers
+function add(a, b) {
+  return a + b;
+}
+
+// Function to subtract two numbers
+function subtract(a, b) {
+  return a - b;
+}
+
+// Function to multiply two numbers
+function multiply(a, b) {
+  return a * b;
+}
+// Function to divide two numbers
+function divide(a, b) {
+  if (b === 0) {
+      return 'Error: Division by zero';
+  } else {
+      return a / b;
+  }
+}
+
+console.log(add(5, 3)); // Output: 8
+console.log(subtract(5, 3)); // Output: 2
+console.log(multiply(5, 3)); // Output: 15
+console.log(divide(5, 3)); // Output: 1.6666666666666667
+console.log(divide(5, 0)); // Output: Error: Division by zero
+
+
+function calculateArea(radius) {
+  return Math.PI * radius ** 2;
+}
+// Invoke the function
+const radius = 5;
+const area = calculateArea(radius);
+console.log(area); //Output: 78.53981633974483
+
+//Create an object with multiple properties
+obj = {
+  name: "Shazia",
+  age: 19,
+  city: "San Antonio",
+  occupation: "Wed Designer",
+  hobbies: ["basketball", "hiking", "reading"]
+}
