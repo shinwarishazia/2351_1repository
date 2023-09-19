@@ -1,5 +1,4 @@
-
-
+//M1 Assignment
 var let = 100;  // this is my bar  Number
 console.log(let);
 var name = "Dev Ed";  // This is the name display  string
@@ -10,6 +9,7 @@ var box = "shazia";
 
 console.log(box);
 
+//2.4 Assignment
 global_variable = 10;
 print //The value of the global variable is global_variable
 console.log("The value of the global variable is: 10");
@@ -37,7 +37,7 @@ object_variable['age'] = 30
 object_variable['city'] = 'New York'
 print //The value of the object variable is object_variable
 
-
+//3.4 Assignment
 //Create at least one function
 function testExample() {
   var greeting = "Hi! My name is Shazia";
@@ -149,6 +149,6 @@ function createString(length, char) {
   }
   return result;
  }
- let myString = createString(5, 'a');
- console.log(myString); // Output: "aaaaa"
-  
+let myString = createString(5, 'a');
+console.log(myString); // Output: "aaaaa"
+ 
