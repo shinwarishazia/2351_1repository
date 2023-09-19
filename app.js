@@ -93,3 +93,62 @@ obj = {
   occupation: "Wed Designer",
   hobbies: ["basketball", "hiking", "reading"]
 }
+
+//4.5 Assignment
+// Declare variables
+var firstName = "Shazia";
+var lastName = "Shinwari";
+var age = 19;
+
+// Create a concatenated string variable
+var fullName = firstName + " " + lastName + ", " + age + " years old.";
+
+// Output to the console
+console.log(fullName);
+
+//switch statement
+let day = 3;
+switch (day) {
+ case 1:
+    console.log("Monday");
+    break;
+ case 2:
+    console.log("Tuesday");
+    break;
+ case 3:
+    console.log("Wednesday");
+    break;
+ case 4:
+    console.log("Thursday");
+    break;
+ case 5:
+    console.log("Friday");
+    break;
+ case 6:
+    console.log("Saturday");
+    break;
+ case 7:
+    console.log("Sunday");
+    break;
+ default:
+    console.log("Invalid day");
+}
+//"if" Conditional statement
+var age = 18;
+if (age >= 18) {
+    console.log("You are eligible to vote.");
+} else {
+    console.log("You are not eligible to vote.");
+}
+
+//string method
+function createString(length, char) {
+  let result = '';
+  for (let i = 0; i < length; i++) {
+     result += char;
+  }
+  return result;
+ }
+ let myString = createString(5, 'a');
+ console.log(myString); // Output: "aaaaa"
+  

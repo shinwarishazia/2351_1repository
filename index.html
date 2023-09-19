@@ -33,13 +33,23 @@
             x.style.display = "none";
         }
     }
-    </script>
-    <p>The length of the string is:</p>
-    <p id="demo"></p>
-    <script>
-        let text = "unitedstateofamerica";
-   document.getElementById("demo").innerHTML = text.toUpperCase();
-     </script>
+</script>
+   
+<p>The length of the string is:</p>
+<p id="demo"></p>
+
+<script>
+let text = "unitedstateofamerica";
+document.getElementById("demo").innerHTML = text.length;
+</script>
+     
+     <script>
+        let x = 125;
+        document.getElementById("demo").innerHTML =
+          x.toString() + "<br>" +
+           (125).toString() + "<br>" +
+           (100 + 25).toString();
+        </script> 
     <script src="./app.js"></script>
 </body>
 </html>
