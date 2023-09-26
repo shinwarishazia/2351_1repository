@@ -76,7 +76,6 @@ console.log(multiply(5, 3)); // Output: 15
 console.log(divide(5, 3)); // Output: 1.6666666666666667
 console.log(divide(5, 0)); // Output: Error: Division by zero
 
-
 function calculateArea(radius) {
   return Math.PI * radius ** 2;
 }
