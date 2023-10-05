@@ -179,12 +179,9 @@ style.innerHTML = `
 document.head.appendChild(style);
 // Change the background color to lightpink
 style.sheet.cssRules[0].style.backgroundColor = 'lightpink';
+
 //Change CSS based upon a variable value
-function changeCSSVariable(variable, value) {
-  document.documentElement.style.setProperty(variable, value);
-}
-// Example usage
-changeCSSVariable("--background-color", "red");
+
 
 //6.4 Assignment
 //Object
