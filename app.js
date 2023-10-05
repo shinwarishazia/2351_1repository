@@ -21,7 +21,7 @@ print //value of a block variable is block_variable
 }
 
 string_variable = "Shazia";
-print //The value of the string variable is string_variable 
+print //The value of the string variable is string_variable
 console.log("The value of the string variable is:" + string_variable);
 
 const object_variable = {
@@ -151,3 +151,76 @@ function createString(length, char) {
 let myString = createString(5, 'a');
 console.log(myString); // Output: "aaaaa"
  
+//5.4 Assignment: Loops and DOM
+//For loop examples
+for (let i = 0; i < 3; i++) {
+    console.log(i);
+}
+
+const names = ["Ed", "Shazia", "Maria", "Alia", "Ali", "Tahmena"];
+for (name of names) {
+  console.log(name);
+}
+//while loop
+let i = 0;
+
+while (i < 4) {
+    console.log(i);
+    i++;
+}
+//Change CSS with JS
+var style = document.createElement('style');
+style.innerHTML = `
+ body {
+    background-color: lightblue;
+ }
+`;
+
+document.head.appendChild(style);
+// Change the background color to lightpink
+style.sheet.cssRules[0].style.backgroundColor = 'lightpink';
+//Change CSS based upon a variable value
+function changeCSSVariable(variable, value) {
+  document.documentElement.style.setProperty(variable, value);
+}
+// Example usage
+changeCSSVariable("--background-color", "red");
+
+//6.4 Assignment
+//Object
+const user = {
+   name: "Shazia",
+   age: 19,
+   married: false,
+   purchases: ["phone", "watch", "car"]
+};
+
+console.log(user.purchases);
+
+//Object Method
+const customer = {
+   name: 'John Doe',
+   email: 'john.doe@example.com',
+   save: function() {
+     // Save the customer to the database.
+     console.log(`Saving customer ${this.name} to the database.`);
+   }
+ };
+
+ customer.save();
+
+//Array
+const fruits1 = ['Apple', 'Orange', 'Banana'];
+fruits1.push("Hey more fruits are added")
+console.log(fruits1);
+//Array Method
+Array.prototype.forEach = function(callback) {
+   for (let i = 0; i < this.length; i++) {
+     callback(this[i], i, this);
+   }
+ };
+
+ const fruits2 = ['Apple', 'Orange', 'Banana'];
+fruits2.forEach((fruit, index, array) => {
+  console.log(`${fruit} is at index ${index} in the array ${array}`);
+});
